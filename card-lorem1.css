@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(245,110,61);
+}
+
+main{
+    width: 800px;
+    height: 480px;
+    margin: 80px 400px;
+    position: relative;
+    background: white;
+    border-radius: 24px;
+}
+
+img{
+    width: 304px;
+    height: 304px;
+    position: absolute;
+    top: 96px;
+    left: -48px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.texts{
+    width: 432px;
+    height: 240px;
+    position: absolute;
+    top: 128px;
+    left: 320px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.date{
+    color: gray;
+    padding-bottom: 16px;
+}
+
+.texts h1{
+    padding-bottom: 16px;
+}
+
+.texts p{
+    padding-bottom: 32px;
+    font-size: 20.8px;
+    color: gray;
+}
+
+button {
+    padding: 16px 40px;
+    font-size: 20.8px;
+    cursor: pointer;
+    background: rgb(245,110,61);
+    color: white;
+    border: none;
+    border-radius: 32px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.spaces{
+    position: relative;
+}
+
+.space-1{
+    width: 11.2px;
+    height: 11.2px;
+    background: gray;
+    position: absolute;
+    right: 16px;
+    border-radius: 50%;
+    top: 192px;
+}
+
+.space-2{
+    width: 11.2px;
+    height: 40px;
+    background:  rgb(245,110,61);
+    position: absolute;
+    right: 16px;
+    top: 212.8px;
+    border-radius: 32px;
+}
+
+.space-3{
+    width: 11.2px;
+    height: 11.2px;
+    background: gray;
+    position: absolute;
+    right: 16px;
+    border-radius: 50%;
+    top: 262.4px;
+}

@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 30rem;
+    height: 35rem;
+    margin: 5rem 30rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image{
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/10/LS/RV/CZ/100847968/32342f94-e5e2-4958-921f-ec0b953166ad-500x500.jpg);
+}
+
+.image-text{
+width: 9rem;
+height: 2.5rem;
+background: white;
+position: absolute;
+bottom: 2rem;
+text-transform: uppercase;
+text-align: center;
+padding-top: 0.6rem;
+}
+
+.text-1{
+    width: 100%;
+    height: 3rem;
+    margin-top: 1rem;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.text-2{
+    width: 100%;
+    height: 10rem;
+    font-size: 1.65rem;
+}

@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://assets3.thrillist.com/v1/image/3130793/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    opacity: 0.7;
+    height: 5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 6.5rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.l-1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.l-2{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.nav-list{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.nav-list li {
+    height: 2.5rem;
+    margin-left: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-list li:hover {
+    color: red;
+    transition: all 0.4s;
+}
+
+.nav-icons i:hover {
+    color: red;
+    transition: all 0.4s;
+}
+
+.nav-icons {
+    height: 2rem;
+    margin-top: 1.8rem;
+    color: white;
+}
+
+.nav-icons i {
+    cursor: pointer;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.image-text{
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.image-text h2{
+    font-size: 5rem;
+    font-family: 'Courgette', cursive;
+    color: white;
+}
+
+.image-text h1{
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.image-text button{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: red;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem 2.5rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.image-text button:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.5s;
+}
+
+.section-1{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    padding: 7.5rem 10rem;
+    background-color: #EFEFEF;
+}
+
+.section-1 img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1rem;
+}
+
+.section-1 img:hover{
+    transform: scale(1.1);  
+    transition: all 0.5s;
+}
+
+
+.t-1{
+    height: 2rem;
+    font-size: 2rem;
+    color: red;
+    font-family: 'Courgette', cursive;
+}
+
+.t-2{
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-text {
+    width: 45rem;
+    height: 22rem;
+    text-align: center;
+    padding: 2rem 5rem;
+}
+
+.section-text button{
+    border: none;
+    margin-top: 2rem;
+    background-color: #EFEFEF;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.section-text button i {
+    padding-left: 0.5rem;
+}
+
+.section-text button:hover{
+    color: red;
+    transition: all 0.5s;
+}
+
+.section-text p{
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-2{
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg);
+}
+
+.section-2 h2 {
+    color: red;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.section-2 h1{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
